@@ -1,0 +1,28 @@
+package Comprehensive.Hybrid.PageObjects;
+
+import java.io.IOException;
+
+import org.testng.annotations.BeforeTest;
+import org.testng.annotations.Test;
+
+import Comprehensive.Hybrid.UiStore.CheckCOD;
+import Comprehensive.Hybrid.Utilities.base;
+
+public class CheckCODTest extends base {
+	
+	@BeforeTest
+	public void openBrowser() throws IOException
+	{
+		driver=initiateDriver();
+		driver.get(prop.getProperty("url"));
+	}
+	
+	@Test
+	public void checkForCOD()
+	{
+		CheckCOD cd=new CheckCOD(driver);
+		cd.getGift();
+		cd.getAutoGift();
+	}
+
+}

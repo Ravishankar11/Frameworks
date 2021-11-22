@@ -1,0 +1,14 @@
+package Comprehensive.Hybrid.UiStore;
+
+import org.openqa.selenium.WebDriver;
+
+public class CheckCOD {
+	
+public WebDriver driver;
+
+	public CheckCOD(WebDriver driver)
+	{
+		this.driver=driver;
+	}
+
+}

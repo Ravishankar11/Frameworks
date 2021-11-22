@@ -1,0 +1,33 @@
+package Comprehensive.Hybrid.PageObjects;
+
+import java.io.IOException;
+
+import org.testng.Assert;
+import org.testng.annotations.BeforeTest;
+import org.testng.annotations.Test;
+
+import Comprehensive.Hybrid.UiStore.CheckCOD;
+import Comprehensive.Hybrid.Utilities.base;
+
+public class CheckCODTest extends base {
+	
+	@BeforeTest
+	public void openBrowser() throws IOException
+	{
+		driver=initiateDriver();
+		driver.get(prop.getProperty("url"));
+	}
+	
+	@Test
+	public void checkForCOD() throws InterruptedException
+	{
+		CheckCOD cd=new CheckCOD(driver);
+		cd.getGift().click();
+		cd.getAutoGift().click();
+		cd.getPincode().sendKeys(prop.getProperty("pcode"));
+		cd.getCheck().click();
+		Thread.sleep(2000);
+		Assert.assertEquals(cd.getDetails().getText(),"Cash on Delivery is available.");
+	}
+
+}

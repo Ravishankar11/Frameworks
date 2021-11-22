@@ -1,0 +1,8 @@
+09:42:54.576 [main] INFO       Comprehensive.Hybrid.PageObjects.BuyDCMerchandiseTest - Entered onto url
+09:42:56.796 [main] INFO       Comprehensive.Hybrid.PageObjects.BuyDCMerchandiseTest - Moved to BuyMerchandise option using Actions
+09:43:02.879 [main] INFO       Comprehensive.Hybrid.PageObjects.BuyDCMerchandiseTest - Clicked on Buy DC Merchandise
+09:43:09.071 [main] INFO       Comprehensive.Hybrid.PageObjects.BuyDCMerchandiseTest - Clicked on Bottle
+09:43:11.811 [main] INFO       Comprehensive.Hybrid.PageObjects.BuyDCMerchandiseTest - Added to cart
+09:43:14.047 [main] INFO       Comprehensive.Hybrid.PageObjects.BuyDCMerchandiseTest - Clicked on checkout
+09:43:28.503 [main] INFO       Comprehensive.Hybrid.PageObjects.BuyDCMerchandiseTest - Verifying whether the current page is checkout page
+09:43:28.504 [main] INFO       Comprehensive.Hybrid.PageObjects.BuyDCMerchandiseTest - Testcase - Buying Bottle from Buy DC Merchandise option using Actions is successfully passed

@@ -1,0 +1,64 @@
+package Comprehensive.Cucumber.StepDefinitions;
+
+import cucumber.api.PendingException;
+import cucumber.api.java.en.Given;
+import cucumber.api.java.en.When;
+import cucumber.api.java.en.Then;
+import cucumber.api.java.en.And;
+import cucumber.api.junit.Cucumber;
+
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
+import org.junit.runner.RunWith;
+
+import Comprehensive.Cucumber.PageObjects.BuyGiftCard;
+import Comprehensive.Cucumber.PageObjects.base;
+
+@RunWith(Cucumber.class)
+public class BuyGiftCardStepDefinition {
+	
+	public static Logger log=LogManager.getLogger(base.class.getName());
+	
+
+    @Given("^user is on home page$")
+    public void user_is_on_home_page() throws Throwable {
+    	driver=initiateDriver();
+		driver.get(prop.getProperty("url"));
+		Thread.sleep(2000);
+		log.info("Entered onto url");
+        
+    }
+    
+    BuyGiftCard gc=new BuyGiftCard(driver);
+
+    @When("^user clicks on giftcards$")
+    public void user_clicks_on_giftcards() throws Throwable {
+        
+    }
+
+    @When("^user adds two giftcards$")
+    public void user_adds_two_giftcards() throws Throwable {
+        throw new PendingException();
+    }
+
+    @When("^user clicks on add to cart$")
+    public void user_clicks_on_add_to_cart() throws Throwable {
+        throw new PendingException();
+    }
+
+    @When("^user clicks on checkout$")
+    public void user_clicks_on_checkout() throws Throwable {
+        throw new PendingException();
+    }
+
+    @Then("^payment page appears$")
+    public void payment_page_appears() throws Throwable {
+        throw new PendingException();
+    }
+
+    @And("^test closes$")
+    public void test_closes() throws Throwable {
+        throw new PendingException();
+    }
+
+}

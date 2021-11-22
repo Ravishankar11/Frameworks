@@ -1,0 +1,10 @@
+package Comprehensive.Hybrid.PageObjects;
+
+public class CreateAccount extends base {
+	
+	public static void creatingAccount()
+	{
+		
+	}
+
+}

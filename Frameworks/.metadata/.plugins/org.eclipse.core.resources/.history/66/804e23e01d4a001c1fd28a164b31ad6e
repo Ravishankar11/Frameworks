@@ -1,0 +1,24 @@
+package Comprehensive.Hybrid.UiStore;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+
+public class SearchForItem {
+	
+	public WebDriver driver;
+
+	public SearchForItem(WebDriver driver)
+	{
+		this.driver=driver;
+	}
+	
+	By search=By.name("q");
+	
+	
+	public WebElement getSearch()
+	{
+		return driver.findElement(search);
+	}
+
+}

@@ -1,0 +1,15 @@
+package Comprehensive.Hybrid.UiStore;
+
+import org.openqa.selenium.WebDriver;
+
+public class PurchaseFromCart {
+	
+public WebDriver driver;
+
+	
+	public PurchaseFromCart(WebDriver driver)
+	{
+		this.driver=driver;
+	}
+
+}

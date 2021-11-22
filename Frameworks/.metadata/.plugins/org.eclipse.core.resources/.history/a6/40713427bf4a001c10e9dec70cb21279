@@ -1,0 +1,41 @@
+package Comprehensive.Hybrid.PageObjects;
+
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
+
+import java.io.IOException;
+
+import org.openqa.selenium.Keys;
+import org.testng.annotations.BeforeTest;
+import org.testng.annotations.Test;
+
+import Comprehensive.Hybrid.UiStore.SearchForItem;
+import Comprehensive.Hybrid.Utilities.base;
+
+public class SearchForItemTest extends base {
+	
+	@BeforeMethod
+	public void openBrowser() throws IOException
+	{
+		driver=initiateDriver();
+		driver.get(prop.getProperty("url"));
+	}
+	
+	@Test
+	public void ItemSearch()
+	{
+		SearchForItem sf=new SearchForItem(driver);
+		sf.getSearch().sendKeys(prop.getProperty("search"));
+		sf.getSearch().sendKeys(Keys.ENTER);
+		sf.getKeychain().click();
+		for(int i=0;i<4;i++)
+		{
+			sf.getAddMore().click();
+		}
+		sf.getAddToCart().click();
+		sf.getCancel().click();
+		//sf.getCart().click();
+		driver.close();
+	}
+
+}

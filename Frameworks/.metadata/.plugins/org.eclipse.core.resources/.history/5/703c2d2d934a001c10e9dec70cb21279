@@ -1,0 +1,11 @@
+Feature: Buying AdiYogi From HomePage
+
+
+Scenario Outline: Buying From Top Section of HomePage
+Given user is on home page
+When user clicks on Adiyogi
+And user clicks on add Wishlist
+And user navigates back
+And user moves to wishlists
+Then wishlist displays
+

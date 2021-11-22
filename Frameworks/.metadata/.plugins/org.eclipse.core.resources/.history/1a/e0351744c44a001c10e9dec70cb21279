@@ -1,0 +1,38 @@
+package Comprehensive.Hybrid.UiStore;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.ui.Select;
+
+public class PurchaseFromCart {
+	
+public WebDriver driver;
+
+	
+	public PurchaseFromCart(WebDriver driver)
+	{
+		this.driver=driver;
+	}
+	
+	By top=By.cssSelector("[data-dropdown-rel='top-50']");
+	By cart=By.xpath("//a[@class='site-nav__link site-nav__link--icon site-nav__link--cart js-drawer-open-cart js-no-transition']");
+	By sortby=By.id("sortBy");
+	Select s=new Select(getSortBy());
+	s.selectByValue("best-selling");
+	
+	
+	public WebElement getTop()
+	{
+		return driver.findElement(top);
+	}
+	public WebElement getCart()
+	{
+		return driver.findElement(cart);
+	}
+	public WebElement getSortBy()
+	{
+		return driver.findElement(sortby);
+	}
+
+}

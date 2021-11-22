@@ -1,0 +1,19 @@
+package Comprehensive.Hybrid.UiStore;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+
+import Comprehensive.Hybrid.Utilities.base;
+
+public class BuyDCMerchandise extends base {
+	
+public WebDriver driver;
+	
+	public BuyDCMerchandise(WebDriver driver)
+	{
+		this.driver=driver;
+	}
+	
+	By merchandise=By.xpath("//a[@data-dropdown-rel='official-merchandise']");
+
+}

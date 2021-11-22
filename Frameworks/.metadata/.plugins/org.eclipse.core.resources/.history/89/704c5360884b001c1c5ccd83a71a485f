@@ -1,0 +1,5 @@
+17:04:51.316 [main] INFO       Comprehensive.Hybrid.PageObjects.BuyPersonalizedGiftTest - Clicked on Customizable bottle
+17:04:53.593 [main] INFO       Comprehensive.Hybrid.PageObjects.BuyPersonalizedGiftTest - Changed bottle color to black
+17:04:56.053 [main] INFO       Comprehensive.Hybrid.PageObjects.BuyPersonalizedGiftTest - Entered custom name
+17:04:59.888 [main] INFO       Comprehensive.Hybrid.PageObjects.BuyPersonalizedGiftTest - Verifying whether landed on cart page
+17:04:59.888 [main] INFO       Comprehensive.Hybrid.PageObjects.BuyPersonalizedGiftTest - Testcase - Buying Personalized bottle with customized name is successfully passed

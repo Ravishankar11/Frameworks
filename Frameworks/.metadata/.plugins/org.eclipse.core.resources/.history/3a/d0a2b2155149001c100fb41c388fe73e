@@ -1,0 +1,18 @@
+package Comprehensive.Hybrid.UiStore;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+
+import Comprehensive.Hybrid.Utilities.base;
+
+public class Contact extends base{
+public WebDriver driver;
+	
+	public Contact(WebDriver driver)
+	{
+		this.driver=driver;
+	}
+	
+	By contact=By.linkText("Contact us");
+
+}

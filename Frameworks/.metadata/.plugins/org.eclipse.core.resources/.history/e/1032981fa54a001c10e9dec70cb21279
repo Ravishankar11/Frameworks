@@ -1,0 +1,54 @@
+package Comprehensive.Hybrid.PageObjects;
+
+import java.io.IOException;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
+import org.openqa.selenium.WebElement;
+import org.testng.Assert;
+import org.testng.annotations.BeforeTest;
+import org.testng.annotations.Test;
+
+import Comprehensive.Hybrid.UiStore.BuyAdiyogi;
+import Comprehensive.Hybrid.Utilities.base;
+
+public class BuyAdiyogiTest extends base {
+	
+	public static Logger log=LogManager.getLogger(base.class.getName());
+	
+	@BeforeTest
+	public void openBrowser() throws IOException
+	{
+		driver=initiateDriver();
+		driver.get(prop.getProperty("url"));
+	}
+	
+	@Test
+	public void wishlisting() throws InterruptedException
+	{
+		BuyAdiyogi adi=new BuyAdiyogi(driver);
+		Thread.sleep(200);
+		log.info("Entered onto url");
+		adi.getProduct().click();
+		Thread.sleep(200);
+		log.info("Clicked on product");
+		adi.getWishlist().click();
+		Thread.sleep(200);
+		log.info("Added product to wishlist");
+		driver.navigate().back();
+		Thread.sleep(200);
+		log.info("Navigated back to homepage");
+		adi.getMoveToWishlist().click();
+		Thread.sleep(200);
+		log.info("Moved to my wishlists");
+		adi.getButton().click();
+		Thread.sleep(200);
+		Assert.assertEquals(adi.getList(),1);
+		Thread.sleep(200);
+		log.info("verifying my item in wishlist");
+		log.info("item present");
+		log.info("Buying item from section and adding it to wishlist and verifying it testcase passed successfully");
+		driver.close();
+
+	}
+
+}

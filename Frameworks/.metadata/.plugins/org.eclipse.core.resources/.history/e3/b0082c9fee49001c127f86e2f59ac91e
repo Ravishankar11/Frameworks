@@ -1,0 +1,24 @@
+package Comprehensive.Hybrid.PageObjects;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+
+public class BuyAdiyogi {
+	
+	public WebDriver driver;
+
+	public BuyAdiyogi(WebDriver driver)
+	{
+		this.driver=driver;
+	}
+	
+	By product=By.xpath("//*[@id=\"CollectionSection-161855750090342625\"]/div[2]/div/div/div[2]/div/a/div[2]/div[1]");
+	By wishlist=By.xpath("//*[@id=\"ProductSection-6585716277446\"]/div/div/div[1]/div[2]/div/div[1]/div[1]/div/button");
+	
+	public WebElement getProduct()
+	{
+		return driver.findElement(product);
+	}
+
+}

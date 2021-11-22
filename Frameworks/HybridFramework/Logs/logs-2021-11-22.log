@@ -1,0 +1,5 @@
+17:14:46.756 [main] INFO       Comprehensive.Hybrid.PageObjects.PurchaseFromCartTest - Verifying whether the current page is checkout page
+17:14:46.756 [main] INFO       Comprehensive.Hybrid.PageObjects.PurchaseFromCartTest - Testcase - Buying gift from cart passed successfully
+17:15:13.617 [main] INFO       Comprehensive.Hybrid.PageObjects.ContactTest - Entered onto url
+17:15:17.675 [main] INFO       Comprehensive.Hybrid.PageObjects.ContactTest - Clicked on Contact at Footer
+17:15:26.593 [main] INFO       Comprehensive.Hybrid.PageObjects.ContactTest - Entered name, email and message

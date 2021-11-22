@@ -1,0 +1,35 @@
+package Comprehensive.Hybrid.UiStore;
+
+import java.io.IOException;
+
+import org.openqa.selenium.WebElement;
+import org.testng.Assert;
+import org.testng.annotations.BeforeTest;
+import org.testng.annotations.Test;
+
+import Comprehensive.Hybrid.PageObjects.BuyAdiyogi;
+import Comprehensive.Hybrid.Utilities.base;
+
+public class BuyAdiyogiTest extends base {
+	
+	@BeforeTest
+	public void openBrowser() throws IOException
+	{
+		driver=initiateDriver();
+		driver.get(prop.getProperty("url"));
+	}
+	
+	@Test
+	public void wishlisting()
+	{
+		BuyAdiyogi adi=new BuyAdiyogi(driver);
+		adi.getProduct().click();
+		String actual=adi.getProductName();
+		adi.getWishlist().click();
+		driver.navigate().back();
+		adi.getMoveToWishlist().click();
+		Assert.assertEquals(adi.getListItemName(),);
+		
+	}
+
+}

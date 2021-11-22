@@ -1,0 +1,20 @@
+package Comprehensive.Hybrid.PageObjects;
+
+import java.io.IOException;
+
+import org.openqa.selenium.WebDriver;
+
+public class CreateAccount extends base {
+	
+	public WebDriver driver;
+	
+	public void creatingAccount() throws IOException
+	{
+		driver=initiateDriver();
+		driver.get(prop.getProperty("url"));
+		
+		
+		
+	}
+
+}

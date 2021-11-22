@@ -1,0 +1,24 @@
+package Comprehensive.Hybrid.UiStore;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+
+public class BuyPersonalizedGift {
+	
+	public WebDriver driver;
+
+	public BuyPersonalizedGift(WebDriver driver)
+	{
+		this.driver=driver;
+	}
+	
+	By personalizedgift=By.xpath("//*[@id=\"shopify-section-1601980218b6c234f6\"]/div/div/div[1]/a/div/div/div/button");
+	
+	
+	public WebElement getPersonalizedGift()
+	{
+		return driver.findElement(personalizedgift);
+	}
+
+}

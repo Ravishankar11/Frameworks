@@ -1,0 +1,14 @@
+package Comprehensive.Hybrid.UiStore;
+
+import org.openqa.selenium.WebDriver;
+
+public class BuyDCMerchandise extends base {
+	
+public WebDriver driver;
+	
+	public BuyGiftCard(WebDriver driver)
+	{
+		this.driver=driver;
+	}
+
+}

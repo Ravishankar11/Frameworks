@@ -1,0 +1,28 @@
+package Comprehensive.Hybrid.PageObjects;
+
+import java.io.IOException;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+
+public class CreateAccount extends base {
+	
+	public WebDriver driver;
+	
+	public CreateAccount(WebDriver driver)
+	{
+		this.driver=driver;
+	}
+
+	
+
+		By signin= By.xpath("//a[@class='site-nav__link site-nav__link--icon signinlink']");
+		
+		
+		public WebElement getSignin()
+		{
+			return driver.findElement(signin);
+		}
+
+}

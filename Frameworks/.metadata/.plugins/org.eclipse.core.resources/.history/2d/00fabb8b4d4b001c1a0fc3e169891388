@@ -1,0 +1,176 @@
+09:47:37.804 [main] DEBUG      org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+09:47:37.811 [main] DEBUG      org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+09:47:37.819 [main] DEBUG      org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+09:47:38.851 [main] TRACE      org.apache.xmlbeans.impl.common.XBeanDebug - Loading type system org.apache.poi.schemas.ooxml.system.ooxml
+09:47:38.867 [main] TRACE      org.apache.xmlbeans.impl.common.XBeanDebug - Loading type system org.apache.xmlbeans.metadata.system.sXMLCONFIG
+09:47:38.891 [main] TRACE      org.apache.xmlbeans.impl.common.XBeanDebug - Loading type system org.apache.xmlbeans.metadata.system.sXMLLANG
+09:47:38.899 [main] TRACE      org.apache.xmlbeans.impl.common.XBeanDebug - Loading type system org.apache.xmlbeans.metadata.system.sXMLSCHEMA
+09:47:38.899 [main] TRACE      org.apache.xmlbeans.impl.common.XBeanDebug - Loading type system org.apache.xmlbeans.metadata.system.sXMLTOOLS
+09:47:38.899 [main] TRACE      org.apache.xmlbeans.impl.common.XBeanDebug - Reading unresolved handles for type system org.apache.xmlbeans.metadata.system.sXMLTOOLS
+09:47:39.075 [main] TRACE      org.apache.xmlbeans.impl.common.XBeanDebug - Finished loading type system org.apache.xmlbeans.metadata.system.sXMLTOOLS
+09:47:39.075 [main] TRACE      org.apache.xmlbeans.impl.common.XBeanDebug - Reading unresolved handles for type system org.apache.xmlbeans.metadata.system.sXMLSCHEMA
+09:47:39.089 [main] TRACE      org.apache.xmlbeans.impl.common.XBeanDebug - Finished loading type system org.apache.xmlbeans.metadata.system.sXMLSCHEMA
+09:47:39.097 [main] TRACE      org.apache.xmlbeans.impl.common.XBeanDebug - Reading unresolved handles for type system org.apache.xmlbeans.metadata.system.sXMLLANG
+09:47:39.097 [main] TRACE      org.apache.xmlbeans.impl.common.XBeanDebug - Finished loading type system org.apache.xmlbeans.metadata.system.sXMLLANG
+09:47:39.097 [main] TRACE      org.apache.xmlbeans.impl.common.XBeanDebug - Reading unresolved handles for type system org.apache.xmlbeans.metadata.system.sXMLCONFIG
+09:47:39.097 [main] TRACE      org.apache.xmlbeans.impl.common.XBeanDebug - Finished loading type system org.apache.xmlbeans.metadata.system.sXMLCONFIG
+09:47:39.097 [main] TRACE      org.apache.xmlbeans.impl.common.XBeanDebug - Reading unresolved handles for type system org.apache.poi.schemas.ooxml.system.ooxml
+09:47:39.193 [main] TRACE      org.apache.xmlbeans.impl.common.XBeanDebug - Finished loading type system org.apache.poi.schemas.ooxml.system.ooxml
+09:47:39.209 [main] TRACE      org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle themefd26doctype
+09:47:39.450 [main] TRACE      org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle stylesheet5d8bdoctype
+09:47:39.473 [main] TRACE      org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle ctstylesheet4257type
+09:47:39.514 [main] TRACE      org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle ctfonts6623type
+09:47:39.530 [main] TRACE      org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle ctfont14d8type
+09:47:39.569 [main] TRACE      org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle ctfills2c6ftype
+09:47:39.601 [main] TRACE      org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle ctfill550ctype
+09:47:39.617 [main] TRACE      org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle ctborders0d66type
+09:47:39.625 [main] TRACE      org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle ctborderf935type
+09:47:39.633 [main] TRACE      org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle ctcellxfs1322type
+09:47:39.657 [main] TRACE      org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle ctxf97f7type
+09:47:39.665 [main] TRACE      org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle ctcellstylexfsa81ftype
+09:47:39.665 [main] TRACE      org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle ctdxfsb26atype
+09:47:39.697 [main] TRACE      org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle cttablestyles872ftype
+09:47:39.705 [main] TRACE      org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle sstf81fdoctype
+09:47:39.705 [main] TRACE      org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle ctsst44f3type
+09:47:39.769 [main] TRACE      org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle ctrsta472type
+09:47:39.841 [main] TRACE      org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle workbookec17doctype
+09:47:39.865 [main] TRACE      org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle ctworkbook83c3type
+09:47:39.969 [main] TRACE      org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle ctsheets49fdtype
+09:47:40.403 [main] TRACE      org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle ctsheet4dbetype
+09:47:40.555 [main] TRACE      org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle strelationshipid1e94type
+09:47:40.619 [main] TRACE      org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle worksheetf539doctype
+09:47:40.635 [main] TRACE      org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle ctworksheet530dtype
+09:47:40.691 [main] TRACE      org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle ctsheetdata8408type
+09:47:40.795 [main] TRACE      org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle ctrowdd39type
+09:47:40.852 [main] TRACE      org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle ctcell842btype
+09:47:41.220 [main] TRACE      org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle stcellrefe4e0type
+09:47:41.596 [main] TRACE      org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle ctcols627ctype
+09:47:41.716 [main] TRACE      org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle ctcola95ftype
+09:47:41.924 [main] TRACE      org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle cthyperlinks6416type
+09:47:41.924 [main] TRACE      org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle cthyperlink0c85type
+09:47:42.060 [main] TRACE      org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle stxstringf179type
+09:47:42.132 [main] TRACE      org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle stcelltypebf95type
+09:47:44.268 [main] INFO       Comprehensive.Hybrid.Utilities.base - Entered onto url
+09:47:50.745 [main] INFO       Comprehensive.Hybrid.Utilities.base - Clicked on Signin
+09:47:55.101 [main] INFO       Comprehensive.Hybrid.Utilities.base - Clicked on create account
+09:48:01.284 [main] INFO       Comprehensive.Hybrid.Utilities.base - Entered values stored from excel
+09:48:01.717 [main] INFO       Comprehensive.Hybrid.Utilities.base - Testcase - Registering a new account is successfully passed
+09:52:38.083 [main] DEBUG      org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+09:52:38.159 [main] DEBUG      org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+09:52:38.167 [main] DEBUG      org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+09:52:38.581 [main] TRACE      org.apache.xmlbeans.impl.common.XBeanDebug - Loading type system org.apache.poi.schemas.ooxml.system.ooxml
+09:52:38.589 [main] TRACE      org.apache.xmlbeans.impl.common.XBeanDebug - Loading type system org.apache.xmlbeans.metadata.system.sXMLCONFIG
+09:52:38.589 [main] TRACE      org.apache.xmlbeans.impl.common.XBeanDebug - Loading type system org.apache.xmlbeans.metadata.system.sXMLLANG
+09:52:38.597 [main] TRACE      org.apache.xmlbeans.impl.common.XBeanDebug - Loading type system org.apache.xmlbeans.metadata.system.sXMLSCHEMA
+09:52:38.597 [main] TRACE      org.apache.xmlbeans.impl.common.XBeanDebug - Loading type system org.apache.xmlbeans.metadata.system.sXMLTOOLS
+09:52:38.597 [main] TRACE      org.apache.xmlbeans.impl.common.XBeanDebug - Reading unresolved handles for type system org.apache.xmlbeans.metadata.system.sXMLTOOLS
+09:52:38.621 [main] TRACE      org.apache.xmlbeans.impl.common.XBeanDebug - Finished loading type system org.apache.xmlbeans.metadata.system.sXMLTOOLS
+09:52:38.621 [main] TRACE      org.apache.xmlbeans.impl.common.XBeanDebug - Reading unresolved handles for type system org.apache.xmlbeans.metadata.system.sXMLSCHEMA
+09:52:38.637 [main] TRACE      org.apache.xmlbeans.impl.common.XBeanDebug - Finished loading type system org.apache.xmlbeans.metadata.system.sXMLSCHEMA
+09:52:38.637 [main] TRACE      org.apache.xmlbeans.impl.common.XBeanDebug - Reading unresolved handles for type system org.apache.xmlbeans.metadata.system.sXMLLANG
+09:52:38.645 [main] TRACE      org.apache.xmlbeans.impl.common.XBeanDebug - Finished loading type system org.apache.xmlbeans.metadata.system.sXMLLANG
+09:52:38.645 [main] TRACE      org.apache.xmlbeans.impl.common.XBeanDebug - Reading unresolved handles for type system org.apache.xmlbeans.metadata.system.sXMLCONFIG
+09:52:38.661 [main] TRACE      org.apache.xmlbeans.impl.common.XBeanDebug - Finished loading type system org.apache.xmlbeans.metadata.system.sXMLCONFIG
+09:52:38.661 [main] TRACE      org.apache.xmlbeans.impl.common.XBeanDebug - Reading unresolved handles for type system org.apache.poi.schemas.ooxml.system.ooxml
+09:52:38.797 [main] TRACE      org.apache.xmlbeans.impl.common.XBeanDebug - Finished loading type system org.apache.poi.schemas.ooxml.system.ooxml
+09:52:38.797 [main] TRACE      org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle themefd26doctype
+09:52:38.957 [main] TRACE      org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle stylesheet5d8bdoctype
+09:52:38.997 [main] TRACE      org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle ctstylesheet4257type
+09:52:39.165 [main] TRACE      org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle ctfonts6623type
+09:52:39.213 [main] TRACE      org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle ctfont14d8type
+09:52:39.221 [main] TRACE      org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle ctfills2c6ftype
+09:52:39.221 [main] TRACE      org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle ctfill550ctype
+09:52:39.237 [main] TRACE      org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle ctborders0d66type
+09:52:39.246 [main] TRACE      org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle ctborderf935type
+09:52:39.254 [main] TRACE      org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle ctcellxfs1322type
+09:52:39.262 [main] TRACE      org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle ctxf97f7type
+09:52:39.262 [main] TRACE      org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle ctcellstylexfsa81ftype
+09:52:39.270 [main] TRACE      org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle ctdxfsb26atype
+09:52:39.278 [main] TRACE      org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle cttablestyles872ftype
+09:52:39.286 [main] TRACE      org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle sstf81fdoctype
+09:52:39.294 [main] TRACE      org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle ctsst44f3type
+09:52:39.310 [main] TRACE      org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle ctrsta472type
+09:52:39.350 [main] TRACE      org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle workbookec17doctype
+09:52:39.382 [main] TRACE      org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle ctworkbook83c3type
+09:52:39.390 [main] TRACE      org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle ctsheets49fdtype
+09:52:39.398 [main] TRACE      org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle ctsheet4dbetype
+09:52:39.398 [main] TRACE      org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle strelationshipid1e94type
+09:52:39.406 [main] TRACE      org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle worksheetf539doctype
+09:52:39.414 [main] TRACE      org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle ctworksheet530dtype
+09:52:39.430 [main] TRACE      org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle ctsheetdata8408type
+09:52:39.438 [main] TRACE      org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle ctrowdd39type
+09:52:39.446 [main] TRACE      org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle ctcell842btype
+09:52:39.462 [main] TRACE      org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle stcellrefe4e0type
+09:52:39.486 [main] TRACE      org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle ctcols627ctype
+09:52:39.494 [main] TRACE      org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle ctcola95ftype
+09:52:39.550 [main] TRACE      org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle cthyperlinks6416type
+09:52:39.558 [main] TRACE      org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle cthyperlink0c85type
+09:52:39.566 [main] TRACE      org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle stxstringf179type
+09:52:39.590 [main] TRACE      org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle stcelltypebf95type
+09:52:41.645 [main] INFO       Comprehensive.Hybrid.PageObjects.CreateAccountTest - Entered onto url
+09:52:45.464 [main] INFO       Comprehensive.Hybrid.PageObjects.CreateAccountTest - Clicked on Signin
+09:52:49.465 [main] INFO       Comprehensive.Hybrid.PageObjects.CreateAccountTest - Clicked on create account
+09:52:53.768 [main] INFO       Comprehensive.Hybrid.PageObjects.CreateAccountTest - Entered values stored from excel
+09:52:53.928 [main] INFO       Comprehensive.Hybrid.PageObjects.CreateAccountTest - Testcase - Registering a new account is successfully passed
+09:53:10.167 [main] INFO       Comprehensive.Hybrid.PageObjects.BuyGiftCardTest - Entered onto url
+09:53:15.220 [main] INFO       Comprehensive.Hybrid.PageObjects.BuyGiftCardTest - Clickedon giftcard from navigation bar
+09:53:17.334 [main] INFO       Comprehensive.Hybrid.PageObjects.BuyGiftCardTest - selected two gift cards
+09:53:19.480 [main] INFO       Comprehensive.Hybrid.PageObjects.BuyGiftCardTest - Clicked on add to cart
+09:53:21.761 [main] INFO       Comprehensive.Hybrid.PageObjects.BuyGiftCardTest - Clicked on checkout
+09:53:36.466 [main] INFO       Comprehensive.Hybrid.PageObjects.BuyGiftCardTest - Verifying whether the current page is checkout page
+09:53:36.466 [main] INFO       Comprehensive.Hybrid.PageObjects.BuyGiftCardTest - Testcase - Buying two giftcards is successfully passed
+09:53:58.443 [main] INFO       Comprehensive.Hybrid.PageObjects.BuyDCMerchandiseTest - Entered onto url
+09:54:00.667 [main] INFO       Comprehensive.Hybrid.PageObjects.BuyDCMerchandiseTest - Moved to BuyMerchandise option using Actions
+09:54:07.604 [main] INFO       Comprehensive.Hybrid.PageObjects.BuyDCMerchandiseTest - Clicked on Buy DC Merchandise
+09:54:14.497 [main] INFO       Comprehensive.Hybrid.PageObjects.BuyDCMerchandiseTest - Clicked on Bottle
+09:54:16.651 [main] INFO       Comprehensive.Hybrid.PageObjects.BuyDCMerchandiseTest - Added to cart
+09:54:18.818 [main] INFO       Comprehensive.Hybrid.PageObjects.BuyDCMerchandiseTest - Clicked on checkout
+09:54:32.021 [main] INFO       Comprehensive.Hybrid.PageObjects.BuyDCMerchandiseTest - Verifying whether the current page is checkout page
+09:54:32.024 [main] INFO       Comprehensive.Hybrid.PageObjects.BuyDCMerchandiseTest - Testcase - Buying Bottle from Buy DC Merchandise option using Actions is successfully passed
+09:54:56.098 [main] INFO       Comprehensive.Hybrid.PageObjects.BuyManchesterCrestTest - Entered onto url
+09:54:58.286 [main] INFO       Comprehensive.Hybrid.PageObjects.BuyManchesterCrestTest - Moved to Get Category Option using Actions
+09:55:00.455 [main] INFO       Comprehensive.Hybrid.PageObjects.BuyManchesterCrestTest - Moved to Option Person
+09:55:06.792 [main] INFO       Comprehensive.Hybrid.PageObjects.BuyManchesterCrestTest - Clicked on sports
+09:55:16.613 [main] INFO       Comprehensive.Hybrid.PageObjects.BuyManchesterCrestTest - Clicked on Manchester United Crest
+09:55:18.765 [main] INFO       Comprehensive.Hybrid.PageObjects.BuyManchesterCrestTest - Verifying whether the selected gift is Manchester United Crest Using Header
+09:55:18.765 [main] INFO       Comprehensive.Hybrid.PageObjects.BuyManchesterCrestTest - Testcase - Buying Manchester Crest is successfully passed
+09:55:40.241 [main] INFO       Comprehensive.Hybrid.PageObjects.BuyPersonalizedGiftTest - Entered onto url
+09:55:45.026 [main] INFO       Comprehensive.Hybrid.PageObjects.BuyPersonalizedGiftTest - Clicked on Personalized gifts
+09:55:54.178 [main] INFO       Comprehensive.Hybrid.PageObjects.BuyPersonalizedGiftTest - Clicked on Customizable bottle
+09:55:56.460 [main] INFO       Comprehensive.Hybrid.PageObjects.BuyPersonalizedGiftTest - Changed bottle color to black
+09:55:59.024 [main] INFO       Comprehensive.Hybrid.PageObjects.BuyPersonalizedGiftTest - Entered custom name
+09:56:02.880 [main] INFO       Comprehensive.Hybrid.PageObjects.BuyPersonalizedGiftTest - Verifying whether landed on cart page
+09:56:02.880 [main] INFO       Comprehensive.Hybrid.PageObjects.BuyPersonalizedGiftTest - Testcase - Buying Personalized bottle with customized name is successfully passed
+09:56:34.352 [main] INFO       Comprehensive.Hybrid.PageObjects.SearchForItemTest - Entered onto url
+09:56:36.512 [main] INFO       Comprehensive.Hybrid.PageObjects.SearchForItemTest - Entered the keyword-cricket to search
+09:56:52.578 [main] INFO       Comprehensive.Hybrid.PageObjects.SearchForItemTest - Adding more keychains
+09:56:54.948 [main] INFO       Comprehensive.Hybrid.PageObjects.SearchForItemTest - Added to cart
+09:56:55.924 [main] INFO       Comprehensive.Hybrid.PageObjects.SearchForItemTest - Testcase - Searching for keyword and purchasing gift is successfully passed
+09:57:27.515 [main] INFO       Comprehensive.Hybrid.PageObjects.CheckCODTest - Entered onto url
+09:57:33.934 [main] INFO       Comprehensive.Hybrid.PageObjects.CheckCODTest - Clicked on All Gifts
+09:57:43.277 [main] INFO       Comprehensive.Hybrid.PageObjects.CheckCODTest - Clicked on Auto Penstand
+09:57:45.498 [main] INFO       Comprehensive.Hybrid.PageObjects.CheckCODTest - Entered pincode
+09:57:52.720 [main] INFO       Comprehensive.Hybrid.PageObjects.CheckCODTest - Verifying whether the COD Option is available
+09:57:52.720 [main] INFO       Comprehensive.Hybrid.PageObjects.CheckCODTest - Testcase - Verifying whether the gift is available for COD to our pincode is successfully passed
+09:58:25.441 [main] INFO       Comprehensive.Hybrid.PageObjects.WishlistTest - Entered onto url
+09:58:41.185 [main] INFO       Comprehensive.Hybrid.PageObjects.WishlistTest - Clicked on product
+09:58:43.393 [main] INFO       Comprehensive.Hybrid.PageObjects.WishlistTest - Added product to wishlist
+09:58:48.041 [main] INFO       Comprehensive.Hybrid.PageObjects.WishlistTest - Navigated back to homepage
+09:58:54.328 [main] INFO       Comprehensive.Hybrid.PageObjects.WishlistTest - Moved to my wishlists
+09:58:58.758 [main] INFO       Comprehensive.Hybrid.PageObjects.WishlistTest - verifying my item in wishlist
+09:58:58.761 [main] INFO       Comprehensive.Hybrid.PageObjects.WishlistTest - item present
+09:58:58.761 [main] INFO       Comprehensive.Hybrid.PageObjects.WishlistTest - Testcase - Buying item from section and adding it to wishlist and verifying it passed successfully
+09:59:39.103 [main] INFO       Comprehensive.Hybrid.PageObjects.PurchaseFromCartTest - Entered onto url
+09:59:46.735 [main] INFO       Comprehensive.Hybrid.PageObjects.PurchaseFromCartTest - Clicked on Top 50 Gifts
+09:59:54.338 [main] INFO       Comprehensive.Hybrid.PageObjects.PurchaseFromCartTest - Sorted gifts by best-selling
+10:00:05.817 [main] INFO       Comprehensive.Hybrid.PageObjects.PurchaseFromCartTest - Clicked on mug
+10:00:07.969 [main] INFO       Comprehensive.Hybrid.PageObjects.PurchaseFromCartTest - Added mug to cart
+10:00:16.834 [main] INFO       Comprehensive.Hybrid.PageObjects.PurchaseFromCartTest - Selected item is in cart
+10:00:19.355 [main] INFO       Comprehensive.Hybrid.PageObjects.PurchaseFromCartTest - Clicked on checkout
+10:00:37.216 [main] INFO       Comprehensive.Hybrid.PageObjects.PurchaseFromCartTest - Verifying whether the current page is checkout page
+10:00:37.219 [main] INFO       Comprehensive.Hybrid.PageObjects.PurchaseFromCartTest - Testcase - Buying gift from cart passed successfully
+10:01:06.799 [main] INFO       Comprehensive.Hybrid.PageObjects.ContactTest - Entered onto url
+10:01:11.489 [main] INFO       Comprehensive.Hybrid.PageObjects.ContactTest - Clicked on Contact at Footer
+10:01:19.602 [main] INFO       Comprehensive.Hybrid.PageObjects.ContactTest - Entered name, email and message
+10:01:25.628 [main] INFO       Comprehensive.Hybrid.PageObjects.ContactTest - Information is submitted
+10:01:25.628 [main] INFO       Comprehensive.Hybrid.PageObjects.ContactTest - Testcase - Contact page test is successfully passed

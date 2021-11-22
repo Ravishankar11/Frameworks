@@ -1,0 +1,63 @@
+package Comprehensive.Cucumber.StepDefinitions;
+
+import cucumber.api.PendingException;
+import cucumber.api.java.en.Given;
+import cucumber.api.java.en.When;
+import cucumber.api.java.en.Then;
+import cucumber.api.java.en.And;
+import cucumber.api.junit.Cucumber;
+
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
+import org.junit.runner.RunWith;
+import org.openqa.selenium.WebDriver;
+
+import Comprehensive.Cucumber.PageObjects.CheckCOD;
+import Comprehensive.Cucumber.Utilities.base;
+
+@RunWith(Cucumber.class)
+public class CheckCODStepDefinition extends base {
+	
+	public static Logger log=LogManager.getLogger(base.class.getName());
+	public static WebDriver driver;
+
+
+    @Given("^user is on home page$")
+    public void user_is_on_home_page() throws Throwable {
+    	driver=initiateDriver();
+		driver.get(prop.getProperty("url"));
+		Thread.sleep(2000);
+		log.info("Entered onto url");
+    }
+    
+    CheckCOD cd=new CheckCOD(driver);
+
+    @When("^user clicks on all gifts$")
+    public void user_clicks_on_all_gifts() throws Throwable {
+    	cd.getGift().click();
+		Thread.sleep(2000);
+		log.info("Clicked on All Gifts");
+		
+    }
+
+    @When("^user selects auto rickshaw pen stand$")
+    public void user_selects_auto_rickshaw_pen_stand() throws Throwable {
+        throw new PendingException();
+    }
+
+    @When("^user enters (.+)$")
+    public void user_enters(String pincode) throws Throwable {
+        throw new PendingException();
+    }
+
+    @Then("^availability text appears$")
+    public void availability_text_appears() throws Throwable {
+        throw new PendingException();
+    }
+
+    @And("^test closes$")
+    public void test_closes() throws Throwable {
+        throw new PendingException();
+    }
+
+}

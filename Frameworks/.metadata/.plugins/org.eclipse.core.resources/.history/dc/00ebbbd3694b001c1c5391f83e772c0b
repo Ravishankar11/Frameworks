@@ -1,0 +1,28 @@
+package Comprehensive.Hybrid.Utilities;
+
+import java.io.File;
+import java.io.IOException;
+
+import org.apache.commons.io.FileUtils;
+import org.openqa.selenium.OutputType;
+import org.openqa.selenium.TakesScreenshot;
+import org.openqa.selenium.WebDriver;
+
+public class screenshot {
+	
+	public WebDriver driver;
+	
+	screenshot(Webdriver driver)
+	{
+		this.driver=driver;
+	}
+	
+	public void getScreenshot(String result) throws IOException
+	{
+		//driver=fromListeners();
+		File src=((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
+		FileUtils.copyFile(src, new File("F:\\eclipse java\\ComprehensiveAssessment\\HybridFramework\\Screenshots\\"+result+"screenshot.png"));
+		
+	}
+
+}

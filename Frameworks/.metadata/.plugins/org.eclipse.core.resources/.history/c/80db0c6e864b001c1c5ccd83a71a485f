@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test name="Test1">
+    <classes>
+      <class name="Comprehensive.Cucumber.StepDefinitions.ContactStepDefinition"/>
+      </classes>
+      </test>
+      <test name="Test2">
+    <classes>
+            <class name="Comprehensive.Cucumber.StepDefinitions.BuyDCMechandiseStepDefinition"/>
+      </classes>
+      </test>
+      <test name="Test1">
+    <classes>
+      <class name="Comprehensive.Cucumber.StepDefinitions.ContactStepDefinition"/>
+      </classes>
+      </test>
+      <test name="Test1">
+    <classes>
+      <class name="Comprehensive.Cucumber.StepDefinitions.ContactStepDefinition"/>
+      </classes>
+      </test>
+      <test name="Test1">
+    <classes>
+      <class name="Comprehensive.Cucumber.StepDefinitions.ContactStepDefinition"/>
+      </classes>
+      </test>
+      <test name="Test1">
+    <classes>
+      <class name="Comprehensive.Cucumber.StepDefinitions.ContactStepDefinition"/>
+      </classes>
+      </test>
+      <test name="Test1">
+    <classes>
+      <class name="Comprehensive.Cucumber.StepDefinitions.ContactStepDefinition"/>
+      </classes>
+      </test>
+      <test name="Test1">
+    <classes>
+      <class name="Comprehensive.Cucumber.StepDefinitions.ContactStepDefinition"/>
+      </classes>
+      </test>
+      <test name="Test1">
+    <classes>
+      <class name="Comprehensive.Cucumber.StepDefinitions.ContactStepDefinition"/>
+      </classes>
+      </test>
+      <test name="Test1">
+    <classes>
+      <class name="Comprehensive.Cucumber.StepDefinitions.ContactStepDefinition"/>
+      </classes>
+      </test>
+      
+
+      <class name="Comprehensive.Cucumber.StepDefinitions.SearchForItemStepDefinition"/>
+      <class name="Comprehensive.Cucumber.StepDefinitions.WishlistStepDefinition"/>
+      <class name="Comprehensive.Cucumber.StepDefinitions.BuyPersonalizedGiftStepDefinition"/>
+      <class name="Comprehensive.Cucumber.StepDefinitions.CreateAccountStepDefinition"/>
+      <class name="Comprehensive.Cucumber.StepDefinitions.BuyManchesterCrestStepDefinition"/>
+      <class name="Comprehensive.Cucumber.StepDefinitions.CheckCODStepDefinition"/>
+      <class name="Comprehensive.Cucumber.StepDefinitions.BuyGiftCardStepDefinition"/>
+      <class name="Comprehensive.Cucumber.StepDefinitions.PurchaseFromCartStepDefinition"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

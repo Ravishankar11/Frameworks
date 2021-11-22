@@ -1,0 +1,37 @@
+package Comprehensive.Hybrid.PageObjects;
+
+import java.io.IOException;
+
+import org.openqa.selenium.support.ui.Select;
+import org.testng.annotations.BeforeTest;
+import org.testng.annotations.Test;
+
+import Comprehensive.Hybrid.UiStore.PurchaseFromCart;
+import Comprehensive.Hybrid.Utilities.base;
+
+public class PurchaseFromCartTest extends base {
+	
+	@BeforeTest
+	public void openBrowser() throws IOException
+	{
+		driver=initiateDriver();
+		driver.get(prop.getProperty("url"));
+	}
+	
+	@Test
+	public void purchaseFromCarts()
+	{
+		PurchaseFromCart pc=new PurchaseFromCart(driver);
+		pc.getTop().click();
+		Select s=new Select(pc.getSortBy());
+		s.selectByValue("best-selling");
+		pc.getMug().click();
+		pc.getAddCart().click();
+		pc.getPopup().click();
+		driver.navigate().to("https://www.bigsmall.in/cart");
+		pc.getItems();
+		
+		driver.close();
+	}
+
+}

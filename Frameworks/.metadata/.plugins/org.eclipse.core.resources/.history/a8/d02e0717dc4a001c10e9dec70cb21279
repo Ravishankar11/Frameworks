@@ -1,0 +1,12 @@
+Feature: search for item and buy
+
+
+Scenario: searching for gift using keyword
+Given user is on home page
+When user clicks on search and sends the <keyword>
+When user sorts by best selling
+When user clicks on mug and adds to cart
+When user navigates to cart
+When clicks on checkout
+Then payment page appears
+And test closes

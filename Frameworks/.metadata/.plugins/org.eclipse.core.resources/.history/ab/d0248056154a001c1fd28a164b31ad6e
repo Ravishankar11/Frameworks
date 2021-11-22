@@ -1,0 +1,24 @@
+package Comprehensive.Hybrid.UiStore;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+
+public class PurchaseFromCart {
+	
+public WebDriver driver;
+
+	
+	public PurchaseFromCart(WebDriver driver)
+	{
+		this.driver=driver;
+	}
+	
+	By cart=By.xpath("site-nav__link site-nav__link--icon site-nav__link--cart js-drawer-open-cart js-no-transition");
+	
+	public WebElement getCart()
+	{
+		return driver.findElement(cart);
+	}
+
+}

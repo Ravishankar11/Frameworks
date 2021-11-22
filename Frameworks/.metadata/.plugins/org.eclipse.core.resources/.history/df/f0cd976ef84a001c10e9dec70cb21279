@@ -1,0 +1,49 @@
+package Comprehensive.Cucumber.StepDefinitions;
+
+import cucumber.api.PendingException;
+import cucumber.api.java.en.Given;
+import cucumber.api.java.en.When;
+import cucumber.api.java.en.Then;
+import cucumber.api.java.en.And;
+import cucumber.api.junit.Cucumber;
+import org.junit.runner.RunWith;
+
+@RunWith(Cucumber.class)
+public class WishlistStepDefinition extends base{
+
+    @Given("^user is on home page$")
+    public void user_is_on_home_page() throws Throwable {
+        throw new PendingException();
+    }
+
+    @When("^user clicks on any gift$")
+    public void user_clicks_on_any_gift() throws Throwable {
+        throw new PendingException();
+    }
+
+    @When("^user adds gift to wishlist$")
+    public void user_adds_gift_to_wishlist() throws Throwable {
+        throw new PendingException();
+    }
+
+    @When("^user navigates to homepage$")
+    public void user_navigates_to_homepage() throws Throwable {
+        throw new PendingException();
+    }
+
+    @When("^user clicks on wishlist$")
+    public void user_clicks_on_wishlist() throws Throwable {
+        throw new PendingException();
+    }
+
+    @Then("^verifies the items$")
+    public void verifies_the_items() throws Throwable {
+        throw new PendingException();
+    }
+
+    @And("^test closes$")
+    public void test_closes() throws Throwable {
+        throw new PendingException();
+    }
+
+}

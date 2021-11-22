@@ -1,0 +1,8 @@
+Feature: Searching Text Antibacterial
+
+
+Scenario: Searching for text
+Given user is on home page
+When user enters <text>
+When clicks on search icon
+Then search page displays

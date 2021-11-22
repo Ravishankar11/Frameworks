@@ -1,0 +1,23 @@
+package Comprehensive.Hybrid.UiStore;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+
+public class BuyManchesterCrest {
+
+public WebDriver driver;
+
+	public BuyManchesterCrest(WebDriver driver)
+	{
+		this.driver=driver;
+	}
+	
+	By category=By.xpath("//a[@data-dropdown-rel='shop-by-category']");
+	
+	
+	public WebElement getCategory()
+	{
+		return driver.findElement(category);
+	}
+}

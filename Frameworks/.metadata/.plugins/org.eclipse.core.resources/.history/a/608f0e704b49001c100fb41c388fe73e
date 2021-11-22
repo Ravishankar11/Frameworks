@@ -1,0 +1,31 @@
+package Comprehensive.Hybrid.UiStore;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+
+import Comprehensive.Hybrid.Utilities.base;
+
+public class BuyGiftCard extends base {
+	
+public WebDriver driver;
+	
+	public BuyGiftCard(WebDriver driver)
+	{
+		this.driver=driver;
+	}
+	
+	By giftcard=By.xpath("//i[@class='fa fa-gift']");
+	By addcard=By.xpath("//*[@id=\"AddToCartForm-738195636312\"]/div[3]/div/span[1]");
+	
+	
+	public WebElement getGiftCard()
+	{
+		return driver.findElement(giftcard);
+	}
+	public WebElement getAddCard()
+	{
+		return driver.findElement(addcard);
+	}
+
+}

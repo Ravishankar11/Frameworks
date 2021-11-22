@@ -1,0 +1,4 @@
+13:20:25.650 [main] INFO       Comprehensive.Hybrid.PageObjects.CreateAccountTest - Clicked on Signin
+13:20:30.284 [main] INFO       Comprehensive.Hybrid.PageObjects.CreateAccountTest - Clicked on create account
+13:20:32.999 [main] INFO       Comprehensive.Hybrid.PageObjects.CreateAccountTest - Entered values stored from excel
+13:20:33.140 [main] INFO       Comprehensive.Hybrid.PageObjects.CreateAccountTest - Testcase - Registering a new account is successfully passed

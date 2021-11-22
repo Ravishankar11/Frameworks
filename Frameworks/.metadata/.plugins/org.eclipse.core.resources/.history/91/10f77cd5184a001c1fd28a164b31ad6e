@@ -1,0 +1,28 @@
+package Comprehensive.Hybrid.UiStore;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+
+public class CheckCOD {
+	
+public WebDriver driver;
+
+	public CheckCOD(WebDriver driver)
+	{
+		this.driver=driver;
+	}
+	
+	By gift=By.xpath("//a[@data-dropdown-rel='all-of-it']");
+	By auto=By.linkText("Auto Rickshaw Pen Stand");
+	
+	public WebElement getGift()
+	{
+		return driver.findElement(gift);
+	}
+	public WebElement getAutoGift()
+	{
+		return driver.findElement(auto);
+	}
+
+}

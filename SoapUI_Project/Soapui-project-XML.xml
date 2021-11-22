@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<con:soapui-project id="8ff431ca-baf8-47fd-bec8-f70490ec2442" activeEnvironment="Default" name="Assessment5" resourceRoot="${projectDir}" soapui-version="5.6.0" abortOnError="false" runType="SEQUENTIAL" xmlns:con="http://eviware.com/soapui/config"><con:settings/><con:interface xsi:type="con:RestService" id="b2b7192e-fc75-4bdd-898b-a1517de869fc" wadlVersion="http://wadl.dev.java.net/2009/02" name="https://kalinga-be.azurewebsites.net" type="rest" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:settings/><con:definitionCache/><con:endpoints><con:endpoint>https://kalinga-be.azurewebsites.net</con:endpoint></con:endpoints><con:resource name="Employee" path="/api/v1/employee" id="8053c9a6-66ca-4344-8798-7420902a6cae"><con:settings/><con:parameters/><con:method name="Employee 1" id="9eb92288-f6a3-4e79-9d3d-b8f0ee140fe7" method="POST"><con:settings/><con:parameters/><con:representation type="FAULT"><con:mediaType>application/json</con:mediaType><con:status>500 400</con:status><con:params/><con:element xmlns:emp="https://kalinga-be.azurewebsites.net/api/v1/employee">emp:Fault</con:element></con:representation><con:representation type="REQUEST"><con:mediaType>application/json</con:mediaType><con:params/></con:representation><con:representation type="RESPONSE"><con:mediaType>application/json</con:mediaType><con:status>201</con:status><con:params/><con:element xmlns:emp="https://kalinga-be.azurewebsites.net/api/v1/employee">emp:Response</con:element></con:representation><con:request name="post" id="a219698b-2909-44ad-b0dc-7d2b85b59b42" mediaType="application/json" postQueryString="false"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:endpoint>https://kalinga-be.azurewebsites.net</con:endpoint><con:request>{
+  "compitency": "string",
+  "id": 10,
+  "name": "string",
+  "yearOfJoining": 0
+}</con:request><con:originalUri>https://kalinga-be.azurewebsites.net/api/v1/employee</con:originalUri><con:credentials><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters/></con:request></con:method></con:resource></con:interface><con:interface xsi:type="con:RestService" id="a62a9179-f491-479c-bdcd-f9097d1a3dee" wadlVersion="http://wadl.dev.java.net/2009/02" name="https://kalinga-be.azurewebsites.net" type="rest" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:settings/><con:definitionCache/><con:endpoints><con:endpoint>https://kalinga-be.azurewebsites.net</con:endpoint></con:endpoints><con:resource name="10" path="/api/v1/employees/{id}" id="cb9aa1b7-8eb1-4816-a561-3f5693ebb960"><con:settings/><con:parameters><con:parameter><con:name>id</con:name><con:value>10</con:value><con:style>TEMPLATE</con:style><con:default>10</con:default></con:parameter></con:parameters><con:method name="10 1" id="5947c880-ff79-40de-b02d-3bd341cd3fcb" method="GET"><con:settings/><con:parameters/><con:representation type="RESPONSE"><con:mediaType>application/json</con:mediaType><con:status>202</con:status><con:params/><con:element xmlns:ns="https://kalinga-be.azurewebsites.net/api/v1/employees/10">ns:Response</con:element></con:representation><con:representation type="FAULT"><con:mediaType>application/json</con:mediaType><con:status>500</con:status><con:params/><con:element xmlns:ns="https://kalinga-be.azurewebsites.net/api/v1/employees/10">ns:Fault</con:element></con:representation><con:request name="get" id="603abcd2-547d-4549-bcdc-e49944a4b9e1" mediaType="application/json"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:endpoint>https://kalinga-be.azurewebsites.net</con:endpoint><con:request/><con:originalUri>https://kalinga-be.azurewebsites.net/api/v1/employees/10</con:originalUri><con:credentials><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters><entry key="id" value="10" xmlns="http://eviware.com/soapui/config"/></con:parameters><con:parameterOrder><con:entry>id</con:entry></con:parameterOrder></con:request></con:method></con:resource></con:interface><con:interface xsi:type="con:RestService" id="471a186c-8b69-4844-b9bc-5200cc1765a6" wadlVersion="http://wadl.dev.java.net/2009/02" name="https://kalinga-be.azurewebsites.net" type="rest" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:settings/><con:definitionCache/><con:endpoints><con:endpoint>https://kalinga-be.azurewebsites.net</con:endpoint></con:endpoints><con:resource name="10" path="/api/v1/employees/{id}" id="c8cedc4f-1c0e-44fb-a615-af15653c5d16"><con:settings/><con:parameters><con:parameter><con:name>id</con:name><con:value>10</con:value><con:style>TEMPLATE</con:style><con:default>10</con:default></con:parameter></con:parameters><con:method name="10 1" id="c8e72b49-5d10-4c8f-849b-a2b933081046" method="PUT"><con:settings/><con:parameters/><con:representation type="RESPONSE"><con:mediaType>application/json</con:mediaType><con:status>202</con:status><con:params/><con:element xmlns:ns="https://kalinga-be.azurewebsites.net/api/v1/employees/10">ns:Response</con:element></con:representation><con:representation type="REQUEST"><con:mediaType>application/json</con:mediaType><con:params/></con:representation><con:representation type="FAULT"><con:mediaType>application/json</con:mediaType><con:status>415 400</con:status><con:params/><con:element xmlns:ns="https://kalinga-be.azurewebsites.net/api/v1/employees/10">ns:Fault</con:element></con:representation><con:representation type="REQUEST"><con:mediaType>application/x-www-form-urlencoded</con:mediaType><con:params/></con:representation><con:request name="put" id="cb24aa07-b162-4071-b528-aaef6197e26f" mediaType="application/json" postQueryString="false"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:endpoint>https://kalinga-be.azurewebsites.net</con:endpoint><con:request>{
+  "compitency": "string",
+  "name": "stng",
+  "yearOfJoining": 0
+}</con:request><con:originalUri>https://kalinga-be.azurewebsites.net/api/v1/employees/10</con:originalUri><con:credentials><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters><entry key="id" value="10" xmlns="http://eviware.com/soapui/config"/></con:parameters><con:parameterOrder><con:entry>id</con:entry></con:parameterOrder></con:request></con:method></con:resource></con:interface><con:interface xsi:type="con:RestService" id="b2a05dbd-6f62-4b48-a9fe-e9b7b3de7fe6" wadlVersion="http://wadl.dev.java.net/2009/02" name="https://kalinga-be.azurewebsites.net" type="rest" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:settings/><con:definitionCache/><con:endpoints><con:endpoint>https://kalinga-be.azurewebsites.net</con:endpoint></con:endpoints><con:resource name="1" path="/api/v1/employees/{id}" id="d14bc132-6b13-489f-b80d-403663bac71a"><con:settings/><con:parameters><con:parameter><con:name>id</con:name><con:value>10</con:value><con:style>TEMPLATE</con:style><con:default>10</con:default></con:parameter></con:parameters><con:method name="1 1" id="4a42eff6-4a1c-46c6-b89a-fe3d7be64e88" method="DELETE"><con:settings/><con:parameters/><con:representation type="REQUEST"><con:mediaType>application/json</con:mediaType><con:params/></con:representation><con:representation type="FAULT"><con:mediaType>application/json</con:mediaType><con:status>410 500</con:status><con:params/><con:element xmlns:ns="https://kalinga-be.azurewebsites.net/api/v1/employees/10">ns:Fault</con:element></con:representation><con:request name="delete" id="70807879-064f-4398-8a89-25446056af25" mediaType="application/json" postQueryString="false"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:endpoint>https://kalinga-be.azurewebsites.net</con:endpoint><con:request/><con:originalUri>https://kalinga-be.azurewebsites.net/api/v1/employees/10</con:originalUri><con:credentials><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters><entry key="id" value="10" xmlns="http://eviware.com/soapui/config"/></con:parameters><con:parameterOrder><con:entry>id</con:entry></con:parameterOrder></con:request></con:method></con:resource></con:interface><con:testSuite id="c15fc1d2-b77c-4ea6-857e-5e2153701021" name="Testing"><con:settings/><con:runType>SEQUENTIAL</con:runType><con:testCase id="d6707036-b1a6-471b-8451-ad3d5e01c42b" failOnError="true" failTestCaseOnErrors="true" keepSession="false" maxResults="0" name="AllOperationsTestCase" searchProperties="true"><con:settings/><con:testStep type="restrequest" name="REST post" id="e3e55dc8-6071-4189-a416-3830b76f3ac8"><con:settings/><con:config service="https://kalinga-be.azurewebsites.net" resourcePath="/api/v1/employee" methodName="Employee 1" xsi:type="con:RestRequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:restRequest name="REST post" id="a219698b-2909-44ad-b0dc-7d2b85b59b42" mediaType="application/json" postQueryString="false"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:endpoint>https://kalinga-be.azurewebsites.net</con:endpoint><con:request>{
+  "compitency": "${#TestSuite#compitency}",
+  "id": ${#TestSuite#id},
+  "name": "${#TestSuite#name}",
+  "yearOfJoining": ${#TestSuite#yearJoined}
+}</con:request><con:originalUri>https://kalinga-be.azurewebsites.net/api/v1/employee</con:originalUri><con:assertion type="Simple Contains" id="e8a59898-ae9f-42ae-966d-f567902d0d47" name="Contains"><con:configuration><token>2020</token><ignoreCase>false</ignoreCase><useRegEx>false</useRegEx></con:configuration></con:assertion><con:credentials><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters/></con:restRequest></con:config></con:testStep><con:testStep type="restrequest" name="REST get" id="5b0f3190-2f5a-47cb-9362-a99c0450b055"><con:settings/><con:config service="https://kalinga-be.azurewebsites.net" resourcePath="/api/v1/employees/{id}" methodName="10 1" xsi:type="con:RestRequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:restRequest name="REST get" id="603abcd2-547d-4549-bcdc-e49944a4b9e1" mediaType="application/json"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:endpoint>https://kalinga-be.azurewebsites.net</con:endpoint><con:request/><con:originalUri>https://kalinga-be.azurewebsites.net/api/v1/employees/10</con:originalUri><con:assertion type="Simple Contains" id="207bbc80-29a9-4215-85fe-05e614aa52cc" name="Contains"><con:configuration><token>2020</token><ignoreCase>false</ignoreCase><useRegEx>false</useRegEx></con:configuration></con:assertion><con:credentials><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters><entry key="id" value="${#TestSuite#id}" xmlns="http://eviware.com/soapui/config"/></con:parameters><con:parameterOrder><con:entry>id</con:entry></con:parameterOrder></con:restRequest></con:config></con:testStep><con:testStep type="restrequest" name="REST delete" id="0f6cd036-8c74-48f9-aa58-c2c509418697"><con:settings/><con:config service="https://kalinga-be.azurewebsites.net" resourcePath="/api/v1/employees/{id}" methodName="1 1" xsi:type="con:RestRequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:restRequest name="REST delete" id="70807879-064f-4398-8a89-25446056af25" mediaType="application/json" postQueryString="false"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:endpoint>https://kalinga-be.azurewebsites.net</con:endpoint><con:request/><con:originalUri>https://kalinga-be.azurewebsites.net/api/v1/employees/10</con:originalUri><con:assertion type="Simple Contains" id="c6899a93-3f13-4b6a-9d6a-3e295b11f8cf" name="Contains"><con:configuration><token>DELETED</token><ignoreCase>false</ignoreCase><useRegEx>false</useRegEx></con:configuration></con:assertion><con:credentials><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters><entry key="id" value="${#TestSuite#id}" xmlns="http://eviware.com/soapui/config"/></con:parameters><con:parameterOrder><con:entry>id</con:entry></con:parameterOrder></con:restRequest></con:config></con:testStep><con:testStep type="restrequest" name="REST put" id="69c93eb7-071e-466b-b466-b9efb1d98c1f"><con:settings/><con:config service="https://kalinga-be.azurewebsites.net" resourcePath="/api/v1/employees/{id}" methodName="10 1" xsi:type="con:RestRequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:restRequest name="REST put" id="cb24aa07-b162-4071-b528-aaef6197e26f" mediaType="application/json" postQueryString="false"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:endpoint>https://kalinga-be.azurewebsites.net</con:endpoint><con:request>{
+  "compitency": "${#TestSuite#compitency}",
+  "id": ${#TestSuite#id},
+  "name": "${#TestSuite#name}",
+  "yearOfJoining": ${#TestSuite#yearJoined}
+}</con:request><con:originalUri>https://kalinga-be.azurewebsites.net/api/v1/employees/10</con:originalUri><con:assertion type="Simple Contains" id="d8f867c3-266b-4d82-83cf-aacb4af57629" name="Contains"><con:configuration><token>2020</token><ignoreCase>false</ignoreCase><useRegEx>false</useRegEx></con:configuration></con:assertion><con:credentials><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters><entry key="id" value="${#TestSuite#id}" xmlns="http://eviware.com/soapui/config"/></con:parameters><con:parameterOrder><con:entry>id</con:entry></con:parameterOrder></con:restRequest></con:config></con:testStep><con:testStep type="groovy" name="Groovy Script" id="91eac3e8-5bf9-431b-8b52-742c601eba2a"><con:settings/><con:config><script>import groovy.json.JsonSlurper
+import jxl.*
+import jxl.write.*
+Workbook work = Workbook.getWorkbook(new File("C:\\Users\\Ravi shankar\\Desktop\\Milestone5\\Data.xls"));
+Sheet sh = work.getSheet(0)
+rc = sh.getRows();
+cc = sh.getColumns();
+log.info"rows count="+rc
+log.info"column count="+cc
+	for(int i=1;i&lt;rc;i++)
+	{
+		String option=sh.getCell(0,i).getContents()
+		switch(option)
+		{
+			case "post":
+				log.info "post"
+				def data=testRunner.testCase.testSuite
+				def testStep = testRunner.testCase.testSteps["REST post"]
+							for(int ii=testStep.assertionCount-1; ii>=0; ii--) {
+							  testStep.removeAssertion(testStep.getAssertionAt(ii));
+							}
+				def Assertion = testRunner.testCase.testSteps["REST post"].addAssertion("Contains")
+				for(int j=1;j&lt;cc;j++)
+					{
+						if(j==1)
+						{
+							data.setPropertyValue("compitency",sh.getCell(j,i).getContents())
+							Assertion.setToken(sh.getCell(j,i).getContents())
+						}
+						else if(j==2)
+							{
+								data.setPropertyValue("id",sh.getCell(j,i).getContents())
+								Assertion.setToken(sh.getCell(j,i).getContents())
+							}
+							else if(j==3)
+							{
+								data.setPropertyValue("name",sh.getCell(j,i).getContents())
+								Assertion.setToken(sh.getCell(j,i).getContents())
+							}
+						else
+						{
+							data.setPropertyValue("yearJoined",sh.getCell(j,i).getContents())
+							Assertion.setToken(sh.getCell(j,i).getContents())
+						}
+					}
+					
+						
+						
+				def tStep=data.testCases["AllOperationsTestCase"].testSteps["REST post"]
+				tStep.run(testRunner,context)
+				def json=tStep.testRequest.response.responseContent
+				def tJson=new JsonSlurper()
+				def object=tJson.parseText(json)
+				assert object.toString().contains(sh.getCell(1,i).getContents())==true
+				log.info (object)
+				Thread.sleep(5000)
+				break
+			case "get":
+				log.info "get"
+				def data=testRunner.testCase.testSuite
+				def testStep = testRunner.testCase.testSteps["REST get"]
+							for(int ii=testStep.assertionCount-1; ii>=0; ii--) {
+							  testStep.removeAssertion(testStep.getAssertionAt(ii));
+							}
+				def Assertion = testRunner.testCase.testSteps["REST get"].addAssertion("Contains")
+				for(int j=1;j&lt;cc;j++)
+					{
+						if(j==1)
+						{
+							Assertion.setToken(sh.getCell(j,i).getContents())
+						}
+						else if(j==2)
+							{
+								Assertion.setToken(sh.getCell(j,i).getContents())
+							}
+							else if(j==2)
+							{
+								Assertion.setToken(sh.getCell(j,i).getContents())
+							}
+						else
+						{
+							Assertion.setToken(sh.getCell(j,i).getContents())
+						}
+					}		
+				def tStep=data.testCases["AllOperationsTestCase"].testSteps["REST get"]
+				tStep.run(testRunner,context)
+				def json=tStep.testRequest.response.responseContent
+				def tJson=new JsonSlurper()
+				def object=tJson.parseText(json)
+				assert object.toString().contains(sh.getCell(1,i).getContents())==true
+				log.info (object)
+				Thread.sleep(3000)
+				break
+			case "put":
+				log.info "put"
+				def data=testRunner.testCase.testSuite
+				def testStep = testRunner.testCase.testSteps["REST put"]
+							for(int ii=testStep.assertionCount-1; ii>=0; ii--) {
+							  testStep.removeAssertion(testStep.getAssertionAt(ii));
+							}
+				def Assertion = testRunner.testCase.testSteps["REST put"].addAssertion("Contains")
+				for(int j=1;j&lt;cc;j++)
+					{
+						
+						if(j==1)
+						{
+							data.setPropertyValue("compitency",sh.getCell(j,i).getContents())
+							Assertion.setToken(sh.getCell(j,i).getContents())
+						}
+						else if(j==2)
+							{
+								data.setPropertyValue("id",sh.getCell(j,i).getContents())
+								Assertion.setToken(sh.getCell(j,i).getContents())
+							}
+							else if(j==3)
+							{
+								data.setPropertyValue("name",sh.getCell(j,i).getContents())
+								Assertion.setToken(sh.getCell(j,i).getContents())
+							}
+						else
+						{
+							data.setPropertyValue("yearJoined",sh.getCell(j,i).getContents())
+							Assertion.setToken(sh.getCell(j,i).getContents())
+						}
+					}	
+				def tStep=data.testCases["AllOperationsTestCase"].testSteps["REST put"]
+				tStep.run(testRunner,context)
+				def json=tStep.testRequest.response.responseContent
+				def tJson=new JsonSlurper()
+				def object=tJson.parseText(json)
+				assert object.toString().contains(sh.getCell(2,i).getContents())==true
+				log.info (object)
+				Thread.sleep(3000)
+				break
+			case "delete":
+				log.info "delete"
+				def data=testRunner.testCase.testSuite
+				def testStep = testRunner.testCase.testSteps["REST delete"]
+							for(int ii=testStep.assertionCount-1; ii>=0; ii--) {
+							  testStep.removeAssertion(testStep.getAssertionAt(ii));
+							}
+				def Assertion = testRunner.testCase.testSteps["REST delete"].addAssertion("Contains")
+							Assertion.setToken("DELETED")
+						
+				def tStep=data.testCases["AllOperationsTestCase"].testSteps["REST delete"]
+				tStep.run(testRunner,context)
+				def json=tStep.testRequest.response.responseContent
+				def tJson=new JsonSlurper()
+				def object=tJson.parseText(json)
+				assert object.toString().contains("DELETED")==true
+				log.info (object)
+				break
+		}
+	}
+work.close();
+</script></con:config></con:testStep><con:properties/></con:testCase><con:properties><con:property><con:name>compendency</con:name><con:value>Engineer</con:value></con:property><con:property><con:name>id</con:name><con:value>1110</con:value></con:property><con:property><con:name>name</con:name><con:value>Suresh Raina</con:value></con:property><con:property><con:name>yearJoined</con:name><con:value>2020</con:value></con:property><con:property><con:name>compitency</con:name><con:value>C1 Engineer</con:value></con:property></con:properties></con:testSuite><con:properties/><con:wssContainer/><con:oAuth2ProfileContainer/><con:oAuth1ProfileContainer/></con:soapui-project>

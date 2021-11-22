@@ -1,0 +1,4 @@
+16:01:49.432 [main] INFO       Comprehensive.Hybrid.PageObjects.BuyDCMerchandiseTest - Clicked on checkout
+16:02:03.004 [main] INFO       Comprehensive.Hybrid.PageObjects.BuyDCMerchandiseTest - Verifying whether the current page is checkout page
+16:02:03.004 [main] INFO       Comprehensive.Hybrid.PageObjects.BuyDCMerchandiseTest - Testcase - Buying Bottle from Buy DC Merchandise option using Actions is successfully passed
+16:02:26.499 [main] INFO       Comprehensive.Hybrid.PageObjects.BuyManchesterCrestTest - Entered onto url

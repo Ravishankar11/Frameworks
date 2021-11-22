@@ -1,0 +1,5 @@
+09:33:08.132 [main] INFO  Comprehensive.Hybrid.PageObjects.BuyDCMerchandiseTest - Entered onto url
+09:33:10.348 [main] INFO  Comprehensive.Hybrid.PageObjects.BuyDCMerchandiseTest - Moved to BuyMerchandise option using Actions
+09:33:16.846 [main] INFO  Comprehensive.Hybrid.PageObjects.BuyDCMerchandiseTest - Clicked on Buy DC Merchandise
+09:33:23.313 [main] INFO  Comprehensive.Hybrid.PageObjects.BuyDCMerchandiseTest - Clicked on Bottle
+09:33:25.465 [main] INFO  Comprehensive.Hybrid.PageObjects.BuyDCMerchandiseTest - Added to cart

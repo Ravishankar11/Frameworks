@@ -1,0 +1,12 @@
+Feature: Checking for COD Availability for given pincode
+
+
+Scenario: Checking for COD Availability
+Given user is on home page
+When user clicks on all gifts
+When user moves to person options
+When user clicks on sports
+When user clicks on manchester crest
+Then manchester crest appears
+And title is checked
+And test closes

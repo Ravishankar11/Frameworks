@@ -1,0 +1,14 @@
+package Comprehensive.Hybrid.PageObjects;
+
+import org.openqa.selenium.WebDriver;
+
+public class CreateAccount extends base {
+	
+	public WebDriver driver;
+	
+	public static void creatingAccount()
+	{
+		driver=initiateDriver();
+	}
+
+}

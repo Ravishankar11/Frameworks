@@ -1,0 +1,5 @@
+13:20:18.616 [main] TRACE      org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle cthyperlinks6416type
+13:20:18.631 [main] TRACE      org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle cthyperlink0c85type
+13:20:18.911 [main] TRACE      org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle stxstringf179type
+13:20:19.039 [main] TRACE      org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle stcelltypebf95type
+13:20:21.682 [main] INFO       Comprehensive.Hybrid.PageObjects.CreateAccountTest - Entered onto url

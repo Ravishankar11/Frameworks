@@ -1,0 +1,48 @@
+package Comprehensive.Hybrid.PageObjects;
+
+import java.io.IOException;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.interactions.Actions;
+import org.testng.Assert;
+import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.BeforeTest;
+import org.testng.annotations.Test;
+
+import Comprehensive.Hybrid.UiStore.BuyDCMerchandise;
+import Comprehensive.Hybrid.Utilities.base;
+
+public class BuyDCMerchandiseTest extends base {
+	
+	@BeforeMethod
+	public void openBrowser() throws IOException
+	{
+		driver=initiateDriver();
+		driver.get(prop.getProperty("url"));
+	}
+	
+	@Test
+	public void buyMerchandise()
+	{
+		BuyDCMerchandise dcm=new BuyDCMerchandise(driver);
+		Thread.sleep(2000);
+		log.info("Entered onto url");
+		Actions a=new Actions(driver);
+		WebElement we=dcm.getMerchandise();
+		a.moveToElement(we).build().perform();
+		Thread.sleep(2000);
+		log.info("Moved to BuyMerchandise option using Actions");
+		dcm.getDCMerchandise().click();
+		Thread.sleep(2000);
+		log.info("Clicked on Buy DC Merchandise");
+		dcm.getBottle().click();
+		dcm.getAddtoCart().click();
+		dcm.getCheckout().click();
+		dcm.getPopup().click();
+		Assert.assertTrue(dcm.getPayment().isDisplayed());
+		driver.close();
+	}
+	
+
+}

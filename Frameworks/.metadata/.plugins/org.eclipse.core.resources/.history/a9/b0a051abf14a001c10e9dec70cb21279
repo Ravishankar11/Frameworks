@@ -1,0 +1,79 @@
+package Comprehensive.Cucumber.StepDefinitions;
+
+import cucumber.api.PendingException;
+import cucumber.api.java.en.Given;
+import cucumber.api.java.en.When;
+import cucumber.api.java.en.Then;
+import cucumber.api.java.en.And;
+import cucumber.api.junit.Cucumber;
+
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
+import org.junit.runner.RunWith;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.interactions.Actions;
+
+import Comprehensive.Cucumber.PageObjects.BuyManchesterCrest;
+import Comprehensive.Cucumber.Utilities.base;
+
+@RunWith(Cucumber.class)
+public class BuyManchesterCrest extends base {
+
+	public static Logger log=LogManager.getLogger(base.class.getName());
+	public static WebDriver driver;
+	
+    @Given("^user is on home page$")
+    public void user_is_on_home_page() throws Throwable {
+    	driver=initiateDriver();
+		driver.get(prop.getProperty("url"));
+		driver.manage().window().maximize();
+		Thread.sleep(2000);
+		log.info("Entered onto url");
+    }
+    
+    BuyManchesterCrest bmc=new BuyManchesterCrest(driver);
+    Actions a=new Actions(driver);
+
+    @When("^user moves to category options$")
+    public void user_moves_to_category_options() throws Throwable {
+    	WebElement cat=bmc.getCategory();
+		a.moveToElement(cat).build().perform();
+		Thread.sleep(2000);
+		log.info("Moved to Get Category Option using Actions");
+    }
+
+    @When("^user moves to person options$")
+    public void user_moves_to_person_options() throws Throwable {
+    	WebElement pers=bmc.getCategoryPerson();
+		a.moveToElement(pers).build().perform();
+		Thread.sleep(2000);
+		log.info("Moved to Option Person");
+    }
+
+    @When("^user clicks on sports$")
+    public void user_clicks_on_sports() throws Throwable {
+        throw new PendingException();
+    }
+
+    @When("^user clicks on manchester crest$")
+    public void user_clicks_on_manchester_crest() throws Throwable {
+        throw new PendingException();
+    }
+
+    @Then("^manchester crest appears$")
+    public void manchester_crest_appears() throws Throwable {
+        throw new PendingException();
+    }
+
+    @And("^title is checked$")
+    public void title_is_checked() throws Throwable {
+        throw new PendingException();
+    }
+
+    @And("^test closes$")
+    public void test_closes() throws Throwable {
+        throw new PendingException();
+    }
+
+}

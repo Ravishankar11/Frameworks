@@ -1,0 +1,33 @@
+package Comprehensive.Hybrid.UiStore;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.interactions.Actions;
+
+import Comprehensive.Hybrid.Utilities.base;
+
+public class BuyDCMerchandise extends base {
+	
+public WebDriver driver;
+//public Actions a=new Actions(driver);
+	
+	public BuyDCMerchandise(WebDriver driver)
+	{
+		this.driver=driver;
+	}
+	
+	By merchandise=By.xpath("//a[@data-dropdown-rel='official-merchandise']");
+	By dcmerchandise=By.xpath("//a[text()='Official DC Merchandise']");
+	
+	public WebElement getMerchandise()
+	{
+		return driver.findElement(merchandise);
+	}
+	public WebElement getDCMerchandise()
+	{
+		return driver.findElement(dcmerchandise);
+	}
+
+
+}

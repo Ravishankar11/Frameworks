@@ -1,0 +1,46 @@
+package Comprehensive.Hybrid.PageObjects;
+
+import java.io.IOException;
+import java.util.Iterator;
+import java.util.Set;
+
+import org.testng.Assert;
+import org.testng.annotations.AfterMethod;
+import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.BeforeTest;
+import org.testng.annotations.Test;
+
+import Comprehensive.Hybrid.UiStore.BuyGiftCard;
+import Comprehensive.Hybrid.Utilities.base;
+
+public class BuyGiftCardTest extends base {
+	
+
+	@BeforeMethod
+	public void openBrowser() throws IOException
+	{
+		driver=initiateDriver();
+		driver.get(prop.getProperty("url"));
+	}
+	
+	@Test
+	public void buyGiftCard()
+	{
+		BuyGiftCard gc=new BuyGiftCard(driver);
+		Thread.sleep(2000);
+		log.info("Entered onto url");
+		gc.getGiftCard().click();
+		gc.getAddCard().click();
+		gc.getSubmit().click();
+		gc.getCheckout().click();
+		gc.getPopup().click();
+		Assert.assertTrue(gc.getPayment().isDisplayed());
+	}
+	
+	@AfterMethod
+	public void closeBrowser()
+	{
+		driver.close();
+	}
+
+}

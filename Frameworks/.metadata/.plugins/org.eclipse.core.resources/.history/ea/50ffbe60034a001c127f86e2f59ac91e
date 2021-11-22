@@ -1,0 +1,14 @@
+package Comprehensive.Hybrid.UiStore;
+
+import org.openqa.selenium.WebDriver;
+
+public class BuyPersonalizedGift {
+	
+	public WebDriver driver;
+
+	public BuyPersonalizedGift(WebDriver driver)
+	{
+		this.driver=driver;
+	}
+
+}

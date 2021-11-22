@@ -1,0 +1,44 @@
+package Comprehensive.Cucumber.StepDefinitions;
+
+import cucumber.api.PendingException;
+import cucumber.api.java.en.Given;
+import cucumber.api.java.en.When;
+import cucumber.api.java.en.Then;
+import cucumber.api.java.en.And;
+import cucumber.api.junit.Cucumber;
+import org.junit.runner.RunWith;
+
+@RunWith(Cucumber.class)
+public class BuyAdiYogiStepDefinition {
+
+    @Given("^user is on home page$")
+    public void user_is_on_home_page() throws Throwable {
+        throw new PendingException();
+    }
+
+    @When("^user clicks on Adiyogi$")
+    public void user_clicks_on_adiyogi() throws Throwable {
+        throw new PendingException();
+    }
+
+    @Then("^wishlist displays$")
+    public void wishlist_displays() throws Throwable {
+        throw new PendingException();
+    }
+
+    @And("^user clicks on add Wishlist$")
+    public void user_clicks_on_add_wishlist() throws Throwable {
+        throw new PendingException();
+    }
+
+    @And("^user navigates back$")
+    public void user_navigates_back() throws Throwable {
+        throw new PendingException();
+    }
+
+    @And("^user moves to wishlists$")
+    public void user_moves_to_wishlists() throws Throwable {
+        throw new PendingException();
+    }
+
+}

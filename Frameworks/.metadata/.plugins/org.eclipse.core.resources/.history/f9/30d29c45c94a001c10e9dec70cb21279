@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="Comprehensive.Hybrid.PageObjects.BuyGiftCardTest"/>
+      <class name="Comprehensive.Hybrid.PageObjects.PurchaseFromCartTest"/>
+      <class name="Comprehensive.Hybrid.PageObjects.CheckCODTest"/>
+      <class name="Comprehensive.Hybrid.PageObjects.ContactTest"/>
+      <class name="Comprehensive.Hybrid.PageObjects.WishlistTest"/>
+      <class name="Comprehensive.Hybrid.PageObjects.CreateAccountTest"/>
+      <class name="Comprehensive.Hybrid.PageObjects.BuyDCMerchandiseTest"/>
+      <class name="Comprehensive.Hybrid.PageObjects.BuyManchesterCrestTest"/>
+      <class name="Comprehensive.HybridFramework.AppTest"/>
+      <class name="Comprehensive.Hybrid.PageObjects.SearchForItemTest"/>
+      <class name="Comprehensive.Hybrid.PageObjects.BuyPersonalizedGiftTest"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

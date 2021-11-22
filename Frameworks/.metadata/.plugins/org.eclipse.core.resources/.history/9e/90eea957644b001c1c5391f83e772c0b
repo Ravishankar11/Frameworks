@@ -1,0 +1,5 @@
+12:41:04.658 [main] TRACE      org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle stxstringf179type
+12:41:04.679 [main] TRACE      org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle stcelltypebf95type
+12:41:07.007 [main] INFO       Comprehensive.Hybrid.PageObjects.CreateAccountTest - Entered onto url
+12:41:11.087 [main] INFO       Comprehensive.Hybrid.PageObjects.CreateAccountTest - Clicked on Signin
+12:41:14.991 [main] INFO       Comprehensive.Hybrid.PageObjects.CreateAccountTest - Clicked on create account

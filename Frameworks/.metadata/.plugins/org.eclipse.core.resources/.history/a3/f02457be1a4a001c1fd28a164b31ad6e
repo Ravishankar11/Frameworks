@@ -1,0 +1,38 @@
+package Comprehensive.Hybrid.UiStore;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+
+public class CheckCOD {
+	
+public WebDriver driver;
+
+	public CheckCOD(WebDriver driver)
+	{
+		this.driver=driver;
+	}
+	
+	By gift=By.xpath("//a[@data-dropdown-rel='all-of-it']");
+	By auto=By.xpath("//*[@id=\"CollectionAjaxContent\"]/div[1]/div[1]/div/a/div[2]/div[1]");
+	By pincode=By.name("PostalCode");
+	By check=By.className("codbutton_btn_button");
+	
+	public WebElement getGift()
+	{
+		return driver.findElement(gift);
+	}
+	public WebElement getAutoGift()
+	{
+		return driver.findElement(auto);
+	}
+	public WebElement getPincode()
+	{
+		return driver.findElement(pincode);
+	}
+	public WebElement getCheck()
+	{
+		return driver.findElement(check);
+	}
+
+}
